@@ -18,6 +18,10 @@ const SERVICE_ID = import.meta.env.VITE_SERVICE_ID;
 const TEMPLATE_ID = import.meta.env.VITE_TEMPLATE_ID;
 const PUBLIC_KEY = import.meta.env.VITE_PUBLIC_KEY;
 
+console.log("SERVICE:", SERVICE_ID);
+console.log("TEMPLATE:", TEMPLATE_ID);
+console.log("PUBLIC:", PUBLIC_KEY);
+
 export default function Contact() {
   const [formData, setFormData] = useState({
     name: "",
